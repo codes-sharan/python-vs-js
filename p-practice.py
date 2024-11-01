@@ -54,3 +54,8 @@ def fibonacci_sequence(n):
 
 # Example usage
 print(fibonacci_sequence(10))  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+# Write a one-liner that generates a list of all the squares of even numbers from 0 to 20. Use list comprehension and ensure your code is both concise and readable.
+
+squares_of_evens = [x ** 2 for x in range(21) if x % 2 == 0]
+print(squares_of_evens)
